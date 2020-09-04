@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WEBPAGE</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/Registration-Page.css">
+</head>
+<body>
+   <div class="container">
+     <h1>Registration Details</h1>
+     <h4 class="h4">Fill this form now to join our family!</h4>
+     <hr>
+      <form action="/" method="POST">
+      <br>
+      <h4>Username <span>*</span></h4>
+      <input class="input-text" id="username" name="username" type="text" pattern="[A-Za-z0-9]{1,15}" title="Username should contain uppercase & lowercase letters. e.g. John" required>
+      <h4>E-Mail <span>*</span></h4>
+      <input class="input-text" type="email" required>
+      <h4>Password <span>*</span></h4>
+      <input class="input-text" id="password" name="password"  type="password" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[$&+,:;=?@#|'.^*()%!-]).{8,}" title="Password should be of minimum 8 characters & must contain a lowercase letter, &#013 an uppercase letter, one numeric character & one special character" required>
+      <h4>Confirm Password <span>*</span></h4>
+      <input class="input-text" id="confirm_password" type="password" onkeyup="check();" required><span id='message'></span>
+      <button class="btn btn-success sign-up">SIGN-UP</button>
+      </form>
+      <h5>By clicking the Sign-Up button, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></h5>
+   </div>
+   <h4 class="login"> Already have an account? <a href="/login" class="LH">Login here!</a></h4>
+
+  <script type="text/javascript" src="/stylesheets/Registration-Page.js"></script>
+</body>
+</html>
