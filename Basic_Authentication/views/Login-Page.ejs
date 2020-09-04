@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN-PAGE</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/Login-Page.css">
+</head>
+<body>
+   <div class="container">
+     <h1>Login Details</h1>
+      <form action="/login" method="POST">
+        <br>
+        <!-- <div class="input-placeholder">
+          <input type="text" name="username" required>
+          <div class="placeholder">
+            <span><i class="fas fa-user"></i></span> 
+            <h4>Username</h4> 
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-lg-1 icon">
+            <i class="fas fa-user"></i>   
+          </div>
+          <div class="col-lg-11">
+            <input type="text" name="username" placeholder="Username" required>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1 icon">
+            <i class="fas fa-lock"></i>   
+          </div>
+          <div class="col-lg-11">
+            <input type="password" name="password"  placeholder="Password" required>
+          </div>
+        </div>  
+        <!-- <div class="input-placeholder">
+          <input type="password" name="password" required>
+          <div class="placeholder">
+            <span><i class="fas fa-lock"></i></span> 
+            <h4>Password</h4>
+          </div>
+        </div> -->
+        <button class="btn btn-success login">LOGIN</button>
+      </form>
+      <h5>Forgot Password? <a href="#"> Click Here </a></h5>
+   </div>
+</body>
+</html>
