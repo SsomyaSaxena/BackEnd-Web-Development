@@ -1,0 +1,19 @@
+body
+{
+background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+h1
+{
+  text-align:center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:400%;
+  margin-top:16%;
+  margin-bottom:3%;
+}
+.logout
+{
+  margin-left:40%;
+  font-size:220%;
+  color:#6becc3;
+  font-family: 'Noto Sans JP', sans-serif;
+}
