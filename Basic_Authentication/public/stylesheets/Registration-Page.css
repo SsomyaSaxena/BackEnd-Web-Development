@@ -1,0 +1,96 @@
+body
+{
+background: linear-gradient(to right, #2ebf91, #8360c3); 
+}
+.container
+{
+  margin-left:31%;
+  margin-right:100px;
+  margin-top:4.0%;
+  padding: 0 2% 0 2%;
+  width:38%;
+  height:540px;
+  background-color: white;
+  border-radius: 15px;
+  /* border: 1px solid;
+  padding: 10px; */
+  box-shadow: 1px 1px 12px #444445;
+}
+h1
+{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align:center;
+  font-weight:500;
+  /* margin-bottom:3%; */
+}
+.h4
+{
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+  font-weight:300;
+}
+hr
+{
+  margin-bottom:0;
+  border-top: 1px solid rgb(172, 169, 169);
+}
+span
+{
+  color:red;
+}
+input
+{
+width:100%;
+height:30px;
+padding: 5px 0 5px 0;
+border-radius:4px;
+border: 1px solid #ccc;
+}
+input:focus
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none; 
+}
+.input-text
+{
+ padding:0 2%;
+}
+input:focus:valid 
+{
+  border: 1px solid black;
+}
+input:focus:invalid {
+  border:1px solid red;
+}
+.sign-up
+{
+  margin-left:26%;
+  margin-top:6%;
+  border-radius: 20px;
+  padding:1.4% 5%;
+  width:50%;
+  border:none;
+  font-family: 'Roboto', sans-serif;
+  font-weight:600;
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+h5
+{
+  margin-top:3%;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400;
+  line-height:1.4em;
+  text-align:center;
+}
+.login
+{
+  margin-top:1%;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align:center;
+}
+.LH
+{
+  color:#6becc3 ; 
+   /* #581acc */
+}
